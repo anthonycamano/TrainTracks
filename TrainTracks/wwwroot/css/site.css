@@ -71,3 +71,7 @@ body {
 }
 
 /*------------------------ Changes made by me --------------------------*/
+
+.predictMap {
+  border: 3px solid #E7E9EE;
+}
