@@ -15624,11 +15624,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/Anthony/Desktop/Projects/TrainTracks/TrainTracks/Views/Home/favorites.cshtml",
-      "TargetPath": "Views\\Home\\favorites.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "/Users/Anthony/Desktop/Projects/TrainTracks/TrainTracks/Views/_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
@@ -15639,18 +15634,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/Anthony/Desktop/Projects/TrainTracks/TrainTracks/Views/Home/aboutApp.cshtml",
-      "TargetPath": "Views\\Home\\aboutApp.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "/Users/Anthony/Desktop/Projects/TrainTracks/TrainTracks/Views/_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/Anthony/Desktop/Projects/TrainTracks/TrainTracks/Views/Home/aboutDev.cshtml",
-      "TargetPath": "Views\\Home\\aboutDev.cshtml",
       "FileKind": "mvc"
     },
     {
