@@ -75,7 +75,7 @@ body {
 .predictMap {
   grid-area: predictMap;
   border: 3px solid #E7E9EE;
-  padding: 1fr 1fr ;
+  /* padding: 1fr 1fr ; */
 }
 
 .searchStops {
@@ -108,8 +108,8 @@ body {
 
 .grid-item {
   background-color: rgba(90, 124, 89, 0.534);
-  grid-row: 1em;
-  grid-column: 1em;
+  /* grid-row: 1em;
+  grid-column: 1em; */
 }
 
 
