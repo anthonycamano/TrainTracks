@@ -23,6 +23,17 @@ namespace TrainTracks.Controllers
             return View();
         }
 
+
+        public IActionResult favorites()
+        {
+            return View();
+        }
+
+        public IActionResult aboutApp()
+        {
+            return View();
+        }
+        
         public IActionResult Privacy()
         {
             return View();
