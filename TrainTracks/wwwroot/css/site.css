@@ -77,7 +77,7 @@ body {
   margin: 0;
 }
 
-.navigation {
+/* .navigation {
   background-color: #E7E9EE;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -86,7 +86,7 @@ body {
 
 li.navigation {
   text-decoration: none;
-}
+} */
 
 .predictMap {
   grid-area: predictMap;
