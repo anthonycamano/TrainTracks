@@ -72,10 +72,21 @@ body {
 
 /*------------------------ Changes made by me --------------------------*/
 
-.navigation {
-  background-color: #E7E9EE;
+* {
+  padding: 0;
+  margin: 0;
 }
 
+.navigation {
+  background-color: #E7E9EE;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+li.navigation {
+  text-decoration: none;
+}
 
 .predictMap {
   grid-area: predictMap;
