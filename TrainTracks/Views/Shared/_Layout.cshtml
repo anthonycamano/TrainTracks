@@ -11,15 +11,18 @@
 
 <body>
     <header>
-        <nav class="navigation">
-            <a asp-area="" asp-controller="Home" asp-action="Index">TrainTracks</a>
-            <ul>
-                <li class="navItem"><a asp-area="" asp-controller="Home" asp-action="locations">locations</a></li>
-                <li class="navItem"><a asp-area="" asp-controller="Home" asp-action="Index">placeholder</a></li>
-                <li class="navItem"><a asp-area="" asp-controller="Home" asp-action="aboutApp">about</a></li>
-            </ul>
+        <nav class="navbar">
+            <div class="navHome"><a asp-area="" asp-controller="Home" asp-action="Index">TrainTracks</a></div>
+            <div class="navItems">
+                <ul>
+                    <li><a asp-area="" asp-controller="Home" asp-action="locations">locations</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Index">placeholder</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="aboutApp">about</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
+    
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
