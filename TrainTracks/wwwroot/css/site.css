@@ -18,6 +18,7 @@ body {
 .navHome {
   font-size: 1.5rem;
   margin: .5rem;
+  color: black;
 }
 
 .navItems ul {
@@ -28,12 +29,14 @@ body {
 
 .navItems li {
   list-style: none;
+  color: black;
 }
 
 .navItems li a {
   text-decoration: none;
   padding: 1rem;
   display: block;
+  color: black;
 }
 
 .predictMap {
