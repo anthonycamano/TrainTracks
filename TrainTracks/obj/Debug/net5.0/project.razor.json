@@ -15629,6 +15629,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/Anthony/Desktop/Projects/TrainTracks/TrainTracks/Views/Home/locations.cshtml",
+      "TargetPath": "Views\\Home\\locations.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/Anthony/Desktop/Projects/TrainTracks/TrainTracks/Views/_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
