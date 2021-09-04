@@ -23,6 +23,10 @@ namespace TrainTracks.Controllers
             return View();
         }
 
+        public IActionResult locations()
+        {
+            return View();
+        }
 
         public IActionResult favorites()
         {
