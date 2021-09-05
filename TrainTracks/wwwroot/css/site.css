@@ -5,6 +5,8 @@
   margin: 0;
 }
 
+/* -------------------------------navigation------------------------------- */
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -35,6 +37,8 @@
   display: block;
   color: black;
 }
+
+/* -------------------------------map&info------------------------------- */
 
 .predictMap {
   grid-area: predictMap;
