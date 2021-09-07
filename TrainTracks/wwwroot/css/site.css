@@ -15,9 +15,9 @@
   background-color: #E7E9EE;
 }
 
-.navHome {
+.navHome a{
   font-size: 1.5rem;
-  margin: .5rem;
+  margin: 5rem;
   text-decoration: none;
   color: black;
 }
@@ -25,6 +25,7 @@
 .navItems ul {
   margin: 0;
   padding: 0;
+  padding-right: 5rem;
   display: flex;
 }
 
