@@ -115,3 +115,7 @@
   background-color: #E7E9EE;
   border: 5px solid black;
 }
+
+.data {
+  justify-content: space-between;
+}
