@@ -75,21 +75,24 @@
 
 .grid-container {
   display: grid;
-  grid-template-columns: 3fr 2fr;
+  grid-template-columns: 1fr 3fr 2fr 1fr ;
+  grid-template-rows: auto;
   grid-gap: 10px;
   padding: 10px;
   grid-template-areas: 
-  "predictMap searchStops"
-  "predictMap trainStops"
-  "predictMap topStopInfo"
-  "predictMap bottomStopInfo";
+  ". predictMap searchStops ."
+  ". predictMap trainStops ."
+  ". predictMap topStopInfo ."
+  ". predictMap bottomStopInfo .";
+  justify-items: stretch;
+  align-items: stretch;
 }
 
-.grid-item{
-  /* background-color: rgba(90, 124, 89, 0.534); */
-  /* grid-row: 1em;
-  grid-column: 1em; */
-}
+/* .grid-item{
+  background-color: rgba(90, 124, 89, 0.534);
+  grid-row: 1em;
+  grid-column: 1em;
+} */
 
 /* -------------------------------search------------------------------- */
 
@@ -111,4 +114,8 @@
 .info {
   background-color: #E7E9EE;
   border: 5px solid black;
+}
+
+.data {
+  justify-content: space-between;
 }
